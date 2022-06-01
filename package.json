@@ -1,7 +1,7 @@
 {
-  "name": "untitled11",
+  "name": "library",
   "version": "1.0.0",
-  "description": "",
+  "description": "Приложение библиотека на typescript",
   "main": "app.js",
   "scripts": {
     "build": "tsc --project ./tsconfig.json --watch",
@@ -12,7 +12,14 @@
   "keywords": [],
   "author": "Pavel Titov",
   "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-form-data": "^2.0.17",
+    "node-unique-id-generator": "^0.1.0"
+  },
   "devDependencies": {
+    "@types/node": "^17.0.38",
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
     "eslint": "^8.16.0",
